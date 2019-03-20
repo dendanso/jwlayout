@@ -1,0 +1,205 @@
+html,
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family:gotham;
+	line-height:1.5;
+}
+
+.container{
+	margin:0px auto;
+	overflow:hidden;
+	width:80%;
+	
+}
+
+.custom_container{
+	margin:0px auto;
+	
+	width:80%;
+	
+}
+
+.box{
+	width:90px;
+	height:120px;
+	background-color:#7F6F66;
+	padding:20px;
+	float:left;
+	
+	
+}
+
+.book{
+	
+	text-align:center;
+	
+	
+	
+}
+
+.book_img{
+	background:#fff;
+	border-radius:50%;
+	padding:6px;
+	margin-top:30px;
+}
+
+.bible{
+	word-spacing:5px;
+	letter-spacing:10px;
+	margin-top: 70px;
+	margin-left:160px;
+	color:#7F6F66;
+}
+
+.banner{
+	
+	padding:50px;
+	color:#fff;
+	font-size:20px;
+	
+}
+
+.the_cross{
+	font-size:80px;
+	font-weight:5px;
+	letter-spacing:10px;
+	font-weight:100px;
+	margin-left:30px;
+}
+
+.banner p{
+	width:980px;
+	
+}
+
+.banner_section{
+	background:#798DA5;
+	margin-top:20px;
+	animation:banner_anim 20s ease-in-out infinite;
+	
+	
+}
+
+.side{
+	float:left;
+	width:400px;
+}
+
+.content{
+	padding:100px;
+}
+
+hr{
+	margin:10px;
+}
+
+
+.content:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.right_side{
+	position:relative;
+	left:5%;
+	text-align:center;
+	
+}
+
+.blue_box img{
+	padding-top:10px;
+	margin:0px;
+}
+
+.last{
+	margin:0px;
+	padding:0px;
+	margin-top:5px;
+}
+
+.help{
+	position:relative;
+	top:20px;;
+	left:20px;
+}
+
+.blue_box{
+	width:50px;
+	height:50px;
+	background:#3f5b89;
+	float:left;
+	margin-left:150px;
+	
+}
+
+.cross{
+
+	
+	animation: page_load 1s ease-in-out;
+	
+}
+
+@keyframes banner_anim{
+	
+	0%{
+		background:#798DA5;
+		
+	}
+	
+	25%{
+		background:#798DA5;
+		
+	}
+	
+	50%{
+		background:#7F6F66;
+		
+	}
+	
+	85%{
+		
+		background:#7F6F66;
+	}
+	
+	100%{
+		background:#798DA5;
+	}
+}
+
+@keyframes page_load{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

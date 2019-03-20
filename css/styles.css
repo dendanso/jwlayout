@@ -1,0 +1,466 @@
+html,
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family:gotham;
+	line-height:1.5;
+}
+
+.container{
+	margin:0px auto;
+	overflow:hidden;
+	width:80%;
+	
+}
+
+.box{
+	width:100px;
+	height:120px;
+	background:#6e7a89;
+	padding:20px;
+	float:left;
+	
+}
+
+.image_container{
+	
+	background:#fff;
+	border-radius:50%;
+	height:100px;
+	width:100px;
+	margin-top:20px;
+	
+
+}
+
+img{
+	margin-top:20px;
+}
+
+.heading{
+	margin-top: 70px;
+	margin-left:160px;
+	color:#6e7a89;
+	
+}
+
+
+
+.banner{
+	
+	background:url(../images/grass.jpg)no-repeat 0px -400px;
+	background-size:cover;
+	background-attachment:fixed;
+	/*animation:move_banner 5s ease-in-out;*/
+	
+	margin-top:10px;
+	color:white;
+	
+}
+
+
+
+
+.banner_caption{
+	
+	width:200px;
+	float:left;
+	background:#7c959b;
+	font-size:34px;
+	padding:120px;
+	
+}
+
+.challenge{
+	background:#dbdbdb;
+	width:240px;
+	float:left;
+	padding:100px;
+	
+}
+
+hr{
+	margin:10px;
+}
+
+.content_two{
+	
+	margin-top:110px;
+	margin-left:700px;
+	font-size:24px;
+}
+
+.small_content{
+	font-size:9px;
+}
+
+.blue_box{
+	width:50px;
+	height:50px;
+	background:#3f5b89;
+	float:left;
+	margin-left:150px;
+	
+}
+
+.blue_box img{
+	padding-top:10px;
+	margin:0px;
+}
+
+.last{
+	margin:0px;
+	padding:0px;
+	margin-top:10px;
+}
+
+.help{
+	position:relative;
+	top:30px;;
+	left:20px;
+}
+
+h4{
+	color:#3f5b89;
+}
+
+
+
+@keyframes move_banner{
+	from{
+		
+	background-position:0px -400px;
+		
+	}
+	
+	to{
+	background-position:0px -300px;
+	}
+}
+
+@media only screen and (max-width:1920px){
+	
+	.box{
+		width:30px;
+		height:40px;
+		background:#6e7a89;
+		padding:10px;
+		float:left;
+	
+	}
+	
+	.image_container{
+	
+		background:#fff;
+		border-radius:50%;
+		height:30px;
+		width:30px;
+		margin-top:10px;
+	
+
+	}
+	
+	img{
+		margin-top:5px;
+		position:relative;
+		width:40px;
+		height:30px;
+		top:-4px;
+		left:-5px;
+
+	}
+	
+	.heading{
+		margin-top: 20px;
+		margin-left:60px;
+		color:#6e7a89;
+		font-size:10px;
+	
+	}
+	
+	.banner_caption{
+	
+		width:160px;
+		background:#7c959b;
+		font-size:27px;
+		padding:100px;
+		
+	
+	}	
+	
+	.banner{
+	
+		background:url(../images/grass.jpg)no-repeat;
+		background-size:cover;
+		background-position:center;
+		background-attachment:fixed;
+		
+		/*animation:move_banner 5s ease-in-out;*/
+		
+		margin-top:10px;
+		color:white;
+		
+	}
+	
+	
+
+	.challenge{
+		background:#dbdbdb;
+		width:260px;
+		float:left;
+		padding:50px;
+		padding-bottom:180px;
+		
+	}
+
+	hr{
+		margin:10px;
+	}
+
+	.content_two{
+		
+		margin-top:50px;
+		margin-left:420px;
+		font-size:18px;
+		
+	}
+
+	.small_content{
+		font-size:10px;
+	}
+
+	.blue_box{
+		width:25px;
+		height:25px;
+		background:#3f5b89;
+		float:left;
+		margin-left:150px;
+		margin-bottom:10px;
+		
+	}
+
+	.blue_box img{
+		padding-top:5px;
+		margin:0px;
+		width:100%;
+		height:80%;
+		position:relative;
+		left:0px;
+		top:-2px;
+		
+	}
+
+	.last{
+		margin:0px;
+		padding:0px;
+		margin-top:5px;
+	}
+
+	.help{
+		position:relative;
+		font-size:12px;
+		top:0px;;
+		left:20px;
+	}
+
+	h4{
+		color:#3f5b89;
+		padding-bottom:5px;
+	}
+	
+}
+
+@media screen and (max-width:1025px){
+	
+	.container{
+		margin:0px auto;
+		overflow:hidden;
+		width:90%;
+		
+	}
+	
+	.box{
+		width:30px;
+		height:40px;
+		background:#6e7a89;
+		padding:10px;
+		float:left;
+	
+	}
+	
+	.image_container{
+	
+		background:#fff;
+		border-radius:50%;
+		height:30px;
+		width:30px;
+		margin-top:10px;
+	
+
+	}
+	
+	img{
+		margin-top:5px;
+		position:relative;
+		width:40px;
+		height:30px;
+		top:-4px;
+		left:-5px;
+
+	}
+	
+	.heading{
+		margin-top: 20px;
+		margin-left:60px;
+		color:#6e7a89;
+		font-size:10px;
+	
+	}
+	
+	.banner_caption{
+	
+		width:100px;
+		background:#7c959b;
+		font-size:16px;
+		padding:50px;
+		height:50px;
+		
+	
+	}	
+	
+	.banner{
+	
+		background:url(../images/grass.jpg)no-repeat;
+		background-size:cover;
+		background-position:center;
+		background-attachment:fixed;
+		
+		/*animation:move_banner 5s ease-in-out;*/
+		
+		margin-top:10px;
+		color:white;
+		
+	}
+	
+	
+
+	.challenge{
+		background:#dbdbdb;
+		width:100px;
+		float:left;
+		padding:50px;
+		padding-bottom:100px;
+		font-size:10px;
+		
+	}
+
+	hr{
+		margin:10px;
+	}
+
+	.content_two{
+		
+		margin-top:50px;
+		margin-left:250px;
+		font-size:14px;
+		
+	}
+
+	.small_content{
+		font-size:10px;
+	}
+
+	.blue_box{
+		width:25px;
+		height:25px;
+		background:#3f5b89;
+		float:left;
+		margin-left:150px;
+		margin-bottom:10px;
+		
+	}
+
+	.blue_box img{
+		padding-top:5px;
+		margin:0px;
+		width:100%;
+		height:80%;
+		position:relative;
+		left:0px;
+		top:-2px;
+		
+	}
+
+	.last{
+		margin:0px;
+		padding:0px;
+		margin-top:10px;
+	}
+
+	.help{
+		position:relative;
+		font-size:12px;
+		top:0px;;
+		left:20px;
+	}
+
+	h4{
+		color:#3f5b89;
+		padding-bottom:5px;
+	}
+
+	
+
+}
+
+
+/*arrow*/
+
+.arrow{
+
+
+	border-top: 35px solid transparent;
+	border-left:  40px solid #777777;
+	border-bottom: 35px solid transparent;
+	position: absolute;
+	right:5%;
+	top: 60%;
+	cursor: pointer;
+
+
+
+} 
+
+
+.change{
+	padding: 200px;
+}
+
+
+
+
+.demo{
+	width: 50px;
+	height: 50px;
+	background: red;
+	float: left;
+	cursor: pointer;
+
+}
+
+.demo1{
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
